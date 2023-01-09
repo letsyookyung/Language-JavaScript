@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e66f42f7-8c7b-480c-809d-7019c8deba2e" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/1st-seminar/array_ivy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1st-seminar/function_ivy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1st-seminar/member_ivy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1st-seminar/null_undefined_ivy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1st-seminar/number_ivy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1st-seminar/object_ivy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1st-seminar/symbol_ivy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1st-seminar/teamMaker_ivy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2nd-seminar/animal_ivy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2nd-seminar/asyncAwait_ivy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2nd-seminar/async_ivy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/기본연습문제.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2nd-seminar/promise.js" beforeDir="false" afterPath="$PROJECT_DIR$/2nd-seminar/promise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/기본연습문제.js" beforeDir="false" afterPath="$PROJECT_DIR$/기본연습문제.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672886414623</updated>
-      <workItem from="1672886416371" duration="25550000" />
+      <workItem from="1672886416371" duration="28891000" />
     </task>
     <servers />
   </component>

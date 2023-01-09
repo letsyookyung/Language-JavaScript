@@ -33,34 +33,66 @@ while (treeLength <= 4) {
     while (startTreeSize <= endTreeSize)  {
         var space = " "
         var tree = "*"
+        let snowSpace = 0
         if (startTreeSize % 2 == 1) {
-            // console.log(startTreeSize)
             if (totalSpace <= startTreeSize) {
                 break;
             }
             let spaceSize = (totalSpace - startTreeSize) / 2;
             let treeSize = startTreeSize;
             if (startTreeSize==1) {
-                tree = "🌟"
+                tree = " 🌟"
+                space = space.repeat(spaceSize);
+                tree = tree.repeat(treeSize);
+                console.log(space, tree);
+                break;
+            }
+
+            while (snowSpace <= treeSize) {
+                if (snowSpace % 3 == 0) {
+                    tree += "❊".repeat(1);
+                } else if (snowSpace % 5 == 0) {
+                    tree += "★".repeat(1);
+                } else {
+                    tree += "*".repeat(1);
+                    }
+                snowSpace++;
             }
             space = space.repeat(spaceSize);
-            tree = tree.repeat(treeSize);
             console.log(space, tree);
         }
         startTreeSize += 1;
     }
-    newStartTreeSize += 2 ;
-    newEndTreeSize += 4;
+    newStartTreeSize += (2*treeLength) ;
+    newEndTreeSize += (4*treeLength);
     treeLength++;
-    // console.log("-------------")
+
+}
+space = "";
+let giftSpace = 0;
+let gift = "";
+// // space = " ".repeat(parseInt(newEndTreeSize/2));
+while (giftSpace <= newEndTreeSize ) {
+    if (giftSpace % 5 == 0) {
+        gift += "0".repeat(1);
+    }
+    else if (giftSpace == parseInt(newEndTreeSize/2)) {
+        tree += "|".repeat(4);
+    }
+    space = (gift+tree);
+    giftSpace++;
 }
 
-// console.log(newEndTreeSize/2)
-space = " ".repeat(newEndTreeSize+2$);
+space = " ".repeat((newEndTreeSize/2+2));
+let smallSpace = " ".repeat((10));
+gift = "🎧".repeat(1);
 tree = "|".repeat(3);
 console.log(space, tree);
 console.log(space, tree);
-console.log(space, tree);
+console.log(smallSpace, gift, "          ", tree, "     🧨");
+
+
+
 
 
 /** 복리 계산 */
